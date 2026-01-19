@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "error.schema.json",
+  "title": "API Error Response",
+  "description": "Standard error response from the Petstore API",
+  "type": "object",
+  "required": ["type", "message"],
+  "properties": {
+    "code": {
+      "type": "integer",
+      "description": "Error code"
+    },
+    "type": {
+      "type": "string",
+      "description": "Error type"
+    },
+    "message": {
+      "type": "string",
+      "description": "Error message"
+    }
+  },
+  "additionalProperties": true
+}

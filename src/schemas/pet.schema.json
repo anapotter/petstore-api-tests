@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "pet.schema.json",
+  "title": "Pet",
+  "description": "A pet in the Petstore API",
+  "type": "object",
+  "required": ["id", "name", "photoUrls"],
+  "properties": {
+    "id": {
+      "type": "integer",
+      "description": "Unique identifier for the pet",
+      "minimum": 0
+    },
+    "name": {
+      "type": "string",
+      "description": "Name of the pet",
+      "minLength": 1,
+      "maxLength": 255
+    },
+    "category": {
+      "type": "object",
+      "description": "Category the pet belongs to",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        }
+      }
+    },
+    "photoUrls": {
+      "type": "array",
+      "description": "Array of photo URLs",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
+    },
+    "tags": {
+      "type": "array",
+      "description": "Tags associated with the pet",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "status": {
+      "type": "string",
+      "description": "Pet status in the store",
+      "enum": ["available", "pending", "sold"]
+    }
+  },
+  "additionalProperties": false
+}

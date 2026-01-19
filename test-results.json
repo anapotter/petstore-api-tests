@@ -1,0 +1,1214 @@
+{
+  "config": {
+    "configFile": "/Users/annstewart/Documents/Github-annapotter/petstore-api-tests/playwright.config.ts",
+    "rootDir": "/Users/annstewart/Documents/Github-annapotter/petstore-api-tests/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ],
+      [
+        "/Users/annstewart/Documents/Github-annapotter/petstore-api-tests/node_modules/allure-playwright/dist/cjs/index.js",
+        {
+          "outputFolder": "allure-results"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/annstewart/Documents/Github-annapotter/petstore-api-tests/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "api",
+        "name": "api",
+        "testDir": "/Users/annstewart/Documents/Github-annapotter/petstore-api-tests/tests/api",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/annstewart/Documents/Github-annapotter/petstore-api-tests/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "ui",
+        "name": "ui",
+        "testDir": "/Users/annstewart/Documents/Github-annapotter/petstore-api-tests/tests/ui",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.57.0",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "api/contract.spec.ts",
+      "file": "api/contract.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "OpenAPI Contract Tests",
+          "file": "api/contract.spec.ts",
+          "line": 9,
+          "column": 6,
+          "specs": [],
+          "suites": [
+            {
+              "title": "OpenAPI Spec Structure",
+              "file": "api/contract.spec.ts",
+              "line": 39,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "should load OpenAPI spec successfully",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "90a218284ea7aefb289c-406d24422e75e5eca421",
+                  "file": "api/contract.spec.ts",
+                  "line": 40,
+                  "column": 9
+                },
+                {
+                  "title": "should have required Pet endpoints",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "90a218284ea7aefb289c-8710e12788d7679e8695",
+                  "file": "api/contract.spec.ts",
+                  "line": 52,
+                  "column": 9
+                },
+                {
+                  "title": "should have required schema definitions",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "90a218284ea7aefb289c-b3c9caf1e0cbee50031d",
+                  "file": "api/contract.spec.ts",
+                  "line": 71,
+                  "column": 9
+                },
+                {
+                  "title": "should have Pet schema with required fields",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "90a218284ea7aefb289c-0de0eef582fbeb59b38d",
+                  "file": "api/contract.spec.ts",
+                  "line": 84,
+                  "column": 9
+                },
+                {
+                  "title": "should have correct enum values for Pet status",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "90a218284ea7aefb289c-036e25cb1c8c5810662e",
+                  "file": "api/contract.spec.ts",
+                  "line": 101,
+                  "column": 9
+                },
+                {
+                  "title": "should list all available endpoints",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "90a218284ea7aefb289c-eba9d78d0be5bd908dbd",
+                  "file": "api/contract.spec.ts",
+                  "line": 111,
+                  "column": 9
+                }
+              ]
+            },
+            {
+              "title": "Response Contract Validation",
+              "file": "api/contract.spec.ts",
+              "line": 124,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "should validate GET /pet/{id} response against Pet schema",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "90a218284ea7aefb289c-746feef2b4f022651d2b",
+                  "file": "api/contract.spec.ts",
+                  "line": 125,
+                  "column": 9
+                },
+                {
+                  "title": "should validate POST /pet response against Pet schema",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "90a218284ea7aefb289c-20376cfcdfd22a5a3b99",
+                  "file": "api/contract.spec.ts",
+                  "line": 168,
+                  "column": 9
+                },
+                {
+                  "title": "should validate PUT /pet response against Pet schema",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "90a218284ea7aefb289c-f6339f376ea97c53e2af",
+                  "file": "api/contract.spec.ts",
+                  "line": 201,
+                  "column": 9
+                },
+                {
+                  "title": "should validate GET /pet/findByStatus response",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "90a218284ea7aefb289c-ec1faaeb6812a6696d2f",
+                  "file": "api/contract.spec.ts",
+                  "line": 236,
+                  "column": 9
+                },
+                {
+                  "title": "should validate required fields are present in response",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "90a218284ea7aefb289c-9cfa6c6212277749deb1",
+                  "file": "api/contract.spec.ts",
+                  "line": 262,
+                  "column": 9
+                },
+                {
+                  "title": "should validate status enum constraint",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "90a218284ea7aefb289c-74a8a51a73ccefa5d5f1",
+                  "file": "api/contract.spec.ts",
+                  "line": 282,
+                  "column": 9
+                },
+                {
+                  "title": "should detect contract violations with helpful diffs",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "90a218284ea7aefb289c-ddef37d22e1eade220ce",
+                  "file": "api/contract.spec.ts",
+                  "line": 309,
+                  "column": 9
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api/pet.spec.ts",
+      "file": "api/pet.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Pet API Tests",
+          "file": "api/pet.spec.ts",
+          "line": 8,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should create a pet and fetch it back",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1212475bc23a0068bba6-1b79f4011b75efe996ae",
+              "file": "api/pet.spec.ts",
+              "line": 15,
+              "column": 7
+            },
+            {
+              "title": "should update a pet",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1212475bc23a0068bba6-406c7c5d4f1f23d83744",
+              "file": "api/pet.spec.ts",
+              "line": 41,
+              "column": 7
+            },
+            {
+              "title": "should find pets by status",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1212475bc23a0068bba6-9408a9bfbda8084783dd",
+              "file": "api/pet.spec.ts",
+              "line": 56,
+              "column": 7
+            },
+            {
+              "title": "should return 404 for non-existent pet",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1212475bc23a0068bba6-37d8722eba376a20a958",
+              "file": "api/pet.spec.ts",
+              "line": 70,
+              "column": 7
+            },
+            {
+              "title": "should delete a pet",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "1212475bc23a0068bba6-c49e486fd4af66621142",
+              "file": "api/pet.spec.ts",
+              "line": 75,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api/pets.crud.spec.ts",
+      "file": "api/pets.crud.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Pet CRUD Operations",
+          "file": "api/pets.crud.spec.ts",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should complete full CRUD lifecycle for a pet",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4037d8a9e72ae186b846-71d1ed4f84e9e893708a",
+              "file": "api/pets.crud.spec.ts",
+              "line": 40,
+              "column": 7
+            },
+            {
+              "title": "should handle multiple pets independently",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "4037d8a9e72ae186b846-23943ae8cc336ad22834",
+              "file": "api/pets.crud.spec.ts",
+              "line": 149,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api/pets.dataDriven.spec.ts",
+      "file": "api/pets.dataDriven.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Data-Driven Pet API Tests",
+          "file": "api/pets.dataDriven.spec.ts",
+          "line": 12,
+          "column": 6,
+          "specs": [],
+          "suites": [
+            {
+              "title": "Status Variations",
+              "file": "api/pets.dataDriven.spec.ts",
+              "line": 40,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "should create and retrieve pet with status: available",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "74fdfc010fd54733ff29-0c2f1e816cc820cda7f5",
+                  "file": "api/pets.dataDriven.spec.ts",
+                  "line": 42,
+                  "column": 11
+                },
+                {
+                  "title": "should create and retrieve pet with status: pending",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "74fdfc010fd54733ff29-2b18248b9d7d04f6fb5c",
+                  "file": "api/pets.dataDriven.spec.ts",
+                  "line": 42,
+                  "column": 11
+                },
+                {
+                  "title": "should create and retrieve pet with status: sold",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "74fdfc010fd54733ff29-a9283c8f4749001ffc19",
+                  "file": "api/pets.dataDriven.spec.ts",
+                  "line": 42,
+                  "column": 11
+                },
+                {
+                  "title": "should find pets by each status",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "74fdfc010fd54733ff29-bb42655b80d1f1b7f2bd",
+                  "file": "api/pets.dataDriven.spec.ts",
+                  "line": 57,
+                  "column": 9
+                }
+              ]
+            },
+            {
+              "title": "Edge Case IDs",
+              "file": "api/pets.dataDriven.spec.ts",
+              "line": 75,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "should handle very large number: 9999999999",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "74fdfc010fd54733ff29-fdfb2ab6dca0df0b6994",
+                  "file": "api/pets.dataDriven.spec.ts",
+                  "line": 77,
+                  "column": 11
+                },
+                {
+                  "title": "should handle negative number: -12345",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "74fdfc010fd54733ff29-3d469af552a981b6d317",
+                  "file": "api/pets.dataDriven.spec.ts",
+                  "line": 77,
+                  "column": 11
+                },
+                {
+                  "title": "should handle zero: 0",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "74fdfc010fd54733ff29-de9a899d340dbbe34ff9",
+                  "file": "api/pets.dataDriven.spec.ts",
+                  "line": 77,
+                  "column": 11
+                },
+                {
+                  "title": "should reject non-existent pet deletion gracefully",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "74fdfc010fd54733ff29-53df9b6a2636459c7313",
+                  "file": "api/pets.dataDriven.spec.ts",
+                  "line": 89,
+                  "column": 9
+                }
+              ]
+            },
+            {
+              "title": "Payload Variations",
+              "file": "api/pets.dataDriven.spec.ts",
+              "line": 102,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "should handle: minimal required fields only",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "74fdfc010fd54733ff29-321266f75bb7fb983a42",
+                  "file": "api/pets.dataDriven.spec.ts",
+                  "line": 104,
+                  "column": 11
+                },
+                {
+                  "title": "should handle: very long name (255 characters)",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "74fdfc010fd54733ff29-0ffc6ebd64b9abc59bcf",
+                  "file": "api/pets.dataDriven.spec.ts",
+                  "line": 104,
+                  "column": 11
+                },
+                {
+                  "title": "should handle: name with special characters",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "74fdfc010fd54733ff29-8b8f5b9ac816f71f47c5",
+                  "file": "api/pets.dataDriven.spec.ts",
+                  "line": 104,
+                  "column": 11
+                },
+                {
+                  "title": "should handle: name with unicode/emoji",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "74fdfc010fd54733ff29-1758ed7aa88c0aa92aeb",
+                  "file": "api/pets.dataDriven.spec.ts",
+                  "line": 104,
+                  "column": 11
+                },
+                {
+                  "title": "should handle: empty photoUrls array",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "74fdfc010fd54733ff29-5f58906e32576b5c58f9",
+                  "file": "api/pets.dataDriven.spec.ts",
+                  "line": 104,
+                  "column": 11
+                },
+                {
+                  "title": "should handle: multiple photo URLs",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "74fdfc010fd54733ff29-cfc72ac502bff998b7c8",
+                  "file": "api/pets.dataDriven.spec.ts",
+                  "line": 104,
+                  "column": 11
+                },
+                {
+                  "title": "should handle: missing optional category",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "74fdfc010fd54733ff29-c98b2ee95d9772fd54fd",
+                  "file": "api/pets.dataDriven.spec.ts",
+                  "line": 104,
+                  "column": 11
+                },
+                {
+                  "title": "should handle: missing optional tags",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "74fdfc010fd54733ff29-781be3b77b5446006886",
+                  "file": "api/pets.dataDriven.spec.ts",
+                  "line": 104,
+                  "column": 11
+                },
+                {
+                  "title": "should handle: all fields populated",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "74fdfc010fd54733ff29-58298e98ba9e9ae3fdfa",
+                  "file": "api/pets.dataDriven.spec.ts",
+                  "line": 104,
+                  "column": 11
+                }
+              ]
+            },
+            {
+              "title": "Bulk Operations with Multiple Statuses",
+              "file": "api/pets.dataDriven.spec.ts",
+              "line": 138,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "should create multiple pets with different statuses and verify findByStatus",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "74fdfc010fd54733ff29-8eda19c0fb9a29321cb3",
+                  "file": "api/pets.dataDriven.spec.ts",
+                  "line": 139,
+                  "column": 9
+                }
+              ]
+            },
+            {
+              "title": "Status Transitions",
+              "file": "api/pets.dataDriven.spec.ts",
+              "line": 170,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "should transition pet status from available to pending",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "74fdfc010fd54733ff29-2f5f86c04eb47b3c0533",
+                  "file": "api/pets.dataDriven.spec.ts",
+                  "line": 182,
+                  "column": 11
+                },
+                {
+                  "title": "should transition pet status from pending to sold",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "74fdfc010fd54733ff29-e9a2ca8add8fc06e53ae",
+                  "file": "api/pets.dataDriven.spec.ts",
+                  "line": 182,
+                  "column": 11
+                },
+                {
+                  "title": "should transition pet status from sold to available",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "74fdfc010fd54733ff29-f6495c6c7b4b28d486b0",
+                  "file": "api/pets.dataDriven.spec.ts",
+                  "line": 182,
+                  "column": 11
+                },
+                {
+                  "title": "should transition pet status from available to sold",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "api",
+                      "projectName": "api",
+                      "results": [],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "74fdfc010fd54733ff29-b5e0b029b9dfefc4d01a",
+                  "file": "api/pets.dataDriven.spec.ts",
+                  "line": 182,
+                  "column": 11
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api/schema.validation.spec.ts",
+      "file": "api/schema.validation.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "JSON Schema Validation",
+          "file": "api/schema.validation.spec.ts",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should validate a valid pet object",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cede3cacff13dea7a4bd-b64fbf9215a0cae537b6",
+              "file": "api/schema.validation.spec.ts",
+              "line": 7,
+              "column": 7
+            },
+            {
+              "title": "should reject pet with missing required fields",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cede3cacff13dea7a4bd-0d9859bbe38803bf4031",
+              "file": "api/schema.validation.spec.ts",
+              "line": 19,
+              "column": 7
+            },
+            {
+              "title": "should reject pet with invalid status",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cede3cacff13dea7a4bd-9b6abb73f5b1d4445257",
+              "file": "api/schema.validation.spec.ts",
+              "line": 38,
+              "column": 7
+            },
+            {
+              "title": "should reject pet with invalid id type",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cede3cacff13dea7a4bd-0feaf93210edb607de50",
+              "file": "api/schema.validation.spec.ts",
+              "line": 58,
+              "column": 7
+            },
+            {
+              "title": "should validate error response structure",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cede3cacff13dea7a4bd-d60ba27ec5dc609f6039",
+              "file": "api/schema.validation.spec.ts",
+              "line": 78,
+              "column": 7
+            },
+            {
+              "title": "should validate pet with optional fields",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cede3cacff13dea7a4bd-eaad80215537d9414454",
+              "file": "api/schema.validation.spec.ts",
+              "line": 89,
+              "column": 7
+            },
+            {
+              "title": "should provide readable error messages",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "api",
+                  "projectName": "api",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "cede3cacff13dea7a4bd-85cf9a4b3fb78d3280de",
+              "file": "api/schema.validation.spec.ts",
+              "line": 109,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-01-19T00:15:15.825Z",
+    "duration": 25.46999999999997,
+    "expected": 0,
+    "skipped": 49,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
